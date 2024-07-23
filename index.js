@@ -16,7 +16,7 @@ const questions = [
         type: 'list',
         message: 'Please select a shape',
         name: 'shape',
-        Choices: ['Circle', 'Triangle', 'Square']
+        choices: ['Circle', 'Triangle', 'Square']
       },
       {
         type: 'input',
@@ -29,6 +29,9 @@ const questions = [
 inquirer
   .prompt(questions)
   .then((response) =>{
-    let markDown = generateMarkdown(response)
-    writeToFile('README.md', markDown)
+    console.log(response);
+    // let markDown = generateMarkdown(response)
+    // writeToFile('README.md', markDown)
   });
+
+  
