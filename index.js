@@ -1,11 +1,13 @@
 const inquirer = require('inquirer');
 const colors = require('colors');
+const { Circle, Triangle, Square } = require('./lib/shapes')
+const fs = require('fs');
 
 const questions = [
     {
         type: 'input',
         message: 'Please enter up to three characters',
-        name: 'characters',
+        name: 'text',
       },
       {
         type: 'input',
@@ -28,10 +30,18 @@ const questions = [
 
 inquirer
   .prompt(questions)
-  .then((response) =>{
+  .then((response) => {
+    let shape = ""
+    if(response.shape == "Circle"){
+        shape = new Circle(response.text, response.textColor, response.shapeColor)
+    } else if (response.shape == "Square"){
+
+    } else if(response.shape == "Triangle"){
+
+    }
     console.log(response);
-    // let markDown = generateMarkdown(response)
-    // writeToFile('README.md', markDown)
+    fs.writeFile('logo.svg', shape.svg, (err) => {
+        err ? console.log(err) : console.log('Generated logo.svg"')
+    })
   });
 
-  
