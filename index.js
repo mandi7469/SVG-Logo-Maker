@@ -36,8 +36,9 @@ inquirer.prompt(questions).then((response) => {
   } else if (response.shape == "Triangle") {
     shape = new Triangle(response.text, response.textColor, response.shapeColor);
   }
+
   console.log(response);
-  fs.writeFile("logo.svg", shape.svg, (err) =>
+  fs.writeFile("logo.svg", shape.render(), (err) =>
     err ? console.log(err) : console.log('Generated logo.svg!')
   );
 });
