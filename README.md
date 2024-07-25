@@ -36,7 +36,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Badges
 
-[![Static Badge](https://img.shields.io/badge/npm_inquirer-8.2.4-green)](https://www.npmjs.com/package/inquirer#installation) [![Static Badge](https://img.shields.io/badge/GitHub-mandi7469-blue)](https://github.com/mandi7469) ![Static Badge](https://img.shields.io/badge/JavaScript-100%-yellow) [![Static Badge](https://img.shields.io/badge/npm-jest-lime%20green)](https://jestjs.io/docs/getting-started)
+[![Static Badge](https://img.shields.io/badge/npm_inquirer-8.2.4-green)](https://www.npmjs.com/package/inquirer#installation) [![Static Badge](https://img.shields.io/badge/GitHub-mandi7469-blue)](https://github.com/mandi7469) ![Static Badge](https://img.shields.io/badge/JavaScript-100%25-yellow) [![Static Badge](https://img.shields.io/badge/npm-jest-lime%20green)](https://jestjs.io/docs/getting-started)
 
 
 ## How to Contribute
