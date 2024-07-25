@@ -1,5 +1,4 @@
 const inquirer = require("inquirer");
-const colors = require("colors");
 const { Circle, Triangle, Square } = require("./lib/shapes");
 const fs = require("fs");
 
