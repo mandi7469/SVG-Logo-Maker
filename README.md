@@ -26,7 +26,7 @@ This is a Node.js command-line application that takes in user input to generate 
 
 You can utilize the inquirer-based application to generate a simple logo for your projects so that you don't have to pay a graphic designer.
 
-[Walkthrough video link]()
+[Walkthrough video link](https://drive.google.com/file/d/1jgl9_uwQXjhocPaFKiaU2EMhKSNe1saS/view?usp=sharing)
 
 ## Badges
 
