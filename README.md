@@ -4,35 +4,29 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This is a Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a .svg file.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contribute](#how-to-contribute)
 - [Questions/Contact](#questions)
 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. <u>Project initialization</u>: Create a new project directory and create a new node.js project folder. Clone project "code" from GitHub repo and clone it down into your project folder.
+
+2. <u>Install Dependencies</u>: Open project terminal and use the command npm i to install the required libraries.
+
+3. <u>Run the application</u>: To invoke the application in your terminal, use the command node index.js and follow the prompt.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+You can utilize the inquirer-based application to generate a simple logo for your projects so that you don't have to pay a graphic designer.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](examples/circle-logo.svg)
-    ```
+[Walkthrough video link]()
 
 ## Badges
 

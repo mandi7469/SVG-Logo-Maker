@@ -7,7 +7,7 @@ const fs = require("fs");
 const questions = [
   {
     type: "input",
-    message: "Please enter up to three characters",
+    message: "Please enter text for logo. (Must not be more than 3 characters",
     name: "text",
   },
   {
